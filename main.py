@@ -47,4 +47,4 @@ if __name__ == "__main__":
     end_time = time.time()
 
     print(f"Середня кількість кроків для чисел від 1 до {N}: {average}")
-    print(f"Час виконання: {end_time - start_time}")
+    print(f"Час виконання:  {end_time - start_time}")
