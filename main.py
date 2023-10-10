@@ -57,7 +57,6 @@ if __name__ == "__main__":
     N = int(input("Введіть кількість чисел: "))
     num_threads = int(input("Введіть кількість потоків: "))
     M = int(input("Введіть кількість разів обчислити послідовність Коллаца для кожного числа: "))
-
     total_steps, execution_time = calculate_average_steps(N, num_threads, M)
     print(f"Середня кількість кроків: {total_steps/N:.2f}")
     print(f"Час виконання всіх потоків: {execution_time:.5f} секунд")
