@@ -37,7 +37,6 @@ def average_collatz_steps(N, num_threads):
     average = total_steps / N
     return average
 
-
 if __name__ == "__main__":
     N = int(input("Введіть кількість чисел: "))
     num_threads = int(input("Введіть кількість потоків: "))
